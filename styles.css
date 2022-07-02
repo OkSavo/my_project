@@ -1,0 +1,61 @@
+.project {
+  width: 50%;
+  padding: 30px;
+  margin: 30px auto;
+  color: #47a7f5;
+  border: #47a7f5 solid 2px;
+  border-radius: 4px;
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+  font-family: "Roboto", sans-serif;
+}
+.enterCity {
+  border-radius: 4px;
+  border: #47a7f5 solid 2px;
+  margin-bottom: 10px;
+}
+.cloudSun {
+  font-size: 40px;
+  text-align: center;
+  color: yellow;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.sun {
+  font-size: 40px;
+  color: #f5d904;
+  margin-top: 10px;
+}
+.rain {
+  font-size: 40px;
+  color: #47a7f5;
+  margin-top: 10px;
+}
+.conteiner2 {
+  margin-bottom: 10px;
+}
+.conteiner3 {
+  text-align: center;
+  font-size: 15px;
+}
+.card {
+  border: #bde0fd solid 0.5px;
+}
+.temp {
+  font-size: 25px;
+  text-align: right;
+  font-weight: 500;
+}
+.buttonLocation {
+  background-color: #bde0fd;
+  border-radius: 4px;
+  margin: 0 auto;
+  border: #80878d solid 0.5px;
+}
+.card {
+  background: transparent;
+}
