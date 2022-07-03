@@ -26,20 +26,28 @@
   </head>
   <body>
     <div class="project">
-      <h6>Kharkiv   Lviv   Warsaw</h6>
+    
      
       <div class="conteiner">
-        <form id = "formCity">
-          <input
-            class="enterCity"
-            type="text"
-            placeholder="Enter city"
-            autofocus = on
-            id = "cityInput"
-          />
-        </form>
-         <button class = "buttonLocation" id = "current-location">You location </button>
+         <div class="row">
+            <div class="col-6">
+
+            <form id = "formCity">
+               <input
+               class="enterCity"
+               type="text"
+               placeholder="Enter city"
+               autofocus = on
+               id = "cityInput" 
+                   />
+             </form> 
+            </div>
+         <div class = "col-6">
+      <button class = "buttonLocation" id = "current-location">Your location   <i class="fas fa-search-location"></i></button>
+         </div>
+      </div> 
       </div>
+    
       <div class="conteiner2">
         <form>
           <div class="row">
@@ -62,7 +70,7 @@
 
               Wind: <span id = "current-wind">2</span> km/h <br>
                 
-            </div>
+            
           </div>
         </form>
       </div>
