@@ -23,8 +23,9 @@
 }
 .sun {
   font-size: 40px;
-  color: #f5d904;
+  color: #606470;
   margin-top: 10px;
+  font-weight: lighter;
 }
 .rain {
   font-size: 40px;
@@ -51,7 +52,7 @@
   border-radius: 4px;
   margin: 0 auto;
   border: #a4acc4 solid 0.5px;
-  position: right;
+  width: 200;
 }
 .card {
   background: transparent;
